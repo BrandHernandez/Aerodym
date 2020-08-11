@@ -1,0 +1,125 @@
+
+.box{
+  width: auto;
+  height: auto;
+  margin-top: 10px auto;
+  background:#fff;/*   Color de la caja    */
+  /* box-shadow: 0 5px 10px rgba(0,0,0,.5);*/ 
+}
+
+.box ul{
+  margin-top: 10px;
+  padding: 0;
+  display: flex;
+  background: #fff;
+  border-bottom: 1px solid;
+}
+
+.box ul li{
+  margin: 0;
+  padding: 5px;
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+  list-style: none;
+  cursor: pointer;
+}
+
+.box ul li .fa{
+  color: #000;/* Color iconos*/
+  font-size: 36px;
+}
+
+.box ul li h4{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #000;/* Color letras*/
+}
+
+.box ul li.active{
+  color: #0067F5;
+}
+
+.box ul li.active .fa,
+.box ul li.active h4{
+  color: #0067F5;
+}
+
+.hide{
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+.content p{
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  color: #fff;
+
+}
+
+@media(max-width: 900px){
+  .box{
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  .box ul{
+    display: block;
+  }
+
+  .box ul li{
+    display: none;
+    width: 50%;
+    float: left;
+    background: #fff;
+  }
+
+  #tab-one-content-box{
+    display: block;
+  }
+
+  #tab-two-content-box{
+    display: block;
+  }
+
+  #tab-three-content-box{
+    display: block;
+  }
+
+  #pie1{
+    display: none;
+  }
+
+  .img{
+  max-width: 80%;
+  max-height: 80%;
+  }
+
+.imgFinal{
+  max-width: 70%;
+  max-height: 70%;
+  }
+
+  .contenedorColor h4{
+  margin-top: 1px;
+}
+
+.magnify > .magnify-lens { /* Magnifying lens */
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  /* Multiple box shadows to achieve the glass lens effect */
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85),
+    0 0 7px 7px rgba(0, 0, 0, 0.25),
+    inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  cursor: none;
+  display: none;
+  z-index: 99;
+}  
+}
