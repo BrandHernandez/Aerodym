@@ -1,0 +1,129 @@
+
+@font-face{
+    font-family:Amaranth;
+    src:url(../fonts/Amaranth.ttf);    
+}
+
+.navbar{font-family:Amaranth;color: white;}
+.card{font-family:Amaranth;}
+.navbar-brand{font-size: 30px;}
+.nav-item{font-size: 20px;}
+.h4{font-family:Amaranth;color: white;}
+.h3{font-family:Amaranth;}
+.hcolor{font-family:Amaranth;}
+.boxT{font-family:Amaranth;font-size: 18px;}
+.p{font-family:Amaranth;}
+.pcole{color:#969696;}
+.pre{font-family:Amaranth;color: white;font-size: 16px;font-weight: bold;}
+.select{font-family:Amaranth;color: white;font-size: 16px; border: none;margin-top: 5px;font-weight: bold;margin-right: 40px;}
+.aspersores{font-family:Amaranth;color: black;font-size: 16px; border-radius: 16px;border: none}
+.btn{font-family:Amaranth;border-radius: 16px;}
+
+.contenedorColor h4{
+  margin-top: 50px;
+}
+
+.contenedor h4{
+  margin-top: 50px;
+}
+
+.img{
+	max-width: 60%;
+	max-height: 60%;
+	}
+
+.imgFinal{
+  max-width: 90%;
+  max-height: 90%;
+  }
+
+.contenedorColor{
+	border-bottom: 1px solid #000;
+}
+
+.contenedor{
+  border-bottom: 1px solid #000;
+  justify-content: center;
+}
+
+.ul{
+    align-content: center;
+    justify-content: center;
+
+}
+
+.li{
+    list-style-image: url(img/icono.png);
+}
+
+.infoPago{
+    border-right: 1px solid #FFF;
+    padding: 10px;
+    font-family:Amaranth;
+    color: white;
+  }
+
+.select-items {
+  position: ;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+ul {
+  list-style-image: url("../img/viñeta.png")
+}
+
+input[type="text"]{
+  border-radius: 16px;
+  font-family:Amaranth;
+}
+
+input[type="email"]{
+  border-radius: 16px;
+  font-family:Amaranth;
+}
+
+input[type="tel"]{
+  border-radius: 16px;
+  font-family:Amaranth;
+}
+
+label{
+  font-family:Amaranth;
+}
+
+
+.magnify > .magnify-lens { /* Magnifying lens */
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  /* Multiple box shadows to achieve the glass lens effect */
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85),
+    0 0 7px 7px rgba(0, 0, 0, 0.25),
+    inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  cursor: none;
+  display: none;
+  z-index: 9;
+}
+.magnify > .magnify-lens.loading {
+  background: #333 !important;
+  opacity: 0.8;
+}
+.magnify > .magnify-lens.loading:after { /* Loading text */
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  content: 'Loading...';
+  font: italic normal 16px/1 Calibri, sans-serif;
+  letter-spacing: 1px;
+  margin-top: -8px;
+  text-align: center;
+  text-shadow: 0 0 2px rgba(51, 51, 51, 0.8);
+  text-transform: none;
+}
