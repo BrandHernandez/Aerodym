@@ -1,0 +1,105 @@
+
+.custom-radios div {
+  display: inline-block;
+}
+
+.custom-radios-camara div {
+  display: inline-block;
+}
+
+.custom-radios input[type="radio"] {
+  display: none;
+}
+
+.custom-radios-camara input[type="radio"] {
+  display: none;
+}
+
+.custom-radios input[type="radio"] + label {
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.custom-radios-camara input[type="radio"] + label {
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+.custom-radios input[type="radio"] + label span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  line-height: 44px;
+}
+
+.custom-radios-camara input[type="radio"] + label span {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 25%;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  line-height: 44px;
+}
+.custom-radios input[type="radio"] + label span img {
+  opacity: 0;
+  transition: all .3s ease;
+}
+
+.custom-radios-camara input[type="radio"] + label span img {
+  opacity: 0;
+  transition: all .3s ease;
+}
+.custom-radios input[type="radio"]#color-1 + label span {
+  background-color: #F0EDE4;
+}
+.custom-radios input[type="radio"]#color-2 + label span {
+  background-color: #4D6C90;
+}
+.custom-radios input[type="radio"]#color-3 + label span {
+  background-color: #DFB837;
+}
+.custom-radios input[type="radio"]#color-4 + label span {
+  background-color: #605F5B;
+}
+.custom-radios input[type="radio"]#color-5 + label span {
+  background-color: #3C3C3C;
+}
+.custom-radios input[type="radio"]#color-6 + label span {
+  background-color: #953E42;
+}
+.custom-radios input[type="radio"]#color-7 + label span {
+  background-color: #337F47;
+}  
+
+.custom-radios-camara input[type="radio"]#camara_1 + label span {
+  background-image: url("../img/Camaras/Camara2.jpg");
+}
+.custom-radios-camara input[type="radio"]#camara_2 + label span {
+ background-image: url("../img/Camaras/Camara1.jpg");
+}
+
+.custom-radios input[type="radio"]:checked + label span img {
+  opacity: 1;
+}
+
+.custom-radios-camara input[type="radio"]:checked + label span img {
+  opacity: 1;
+}
+
